@@ -1,0 +1,19 @@
+*{margin: 0;padding:0;box-sizing: border-box;}
+section {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 0 3vw;
+}
+section:nth-child(even) {
+  align-items: flex-end;
+  background-color: rgb(234, 234, 234);
+}
+h1 {
+  font-size: 80px;
+}
+p{
+  max-width: 50%;
+}
